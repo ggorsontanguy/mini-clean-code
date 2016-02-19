@@ -9,12 +9,16 @@ import java.util.Map;
 public class KeyValueStore {
     
     public void importFile(String path) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader(path));
-        try {
+//        BufferedReader br = new BufferedReader(new FileReader(path));
+//        try {
+//            importFile(br);
+//        } finally {
+//            br.close();
+//        }
+    	
+        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             importFile(br);
-        } finally {
-            br.close();
-        }
+        } 
     }
 
     private void importFile(BufferedReader br) throws IOException {
