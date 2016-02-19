@@ -32,42 +32,42 @@ public class ReservationServiceTest {
     
     @Test public void devrait_proposer_une_salle_quand_pas_de_reservations_preexistantes() {
         quandIlNyaPasDeReservationsPreexistantes();
-            assertTrue(reservationService.findSalleReservable(8, LocalDate.now(), 14, 17).isPresent());
+            assertTrue(reservationService.findSalleReservable(8, new TimeSlot(LocalDate.now(), 14, 17)).isPresent());
     }
 
     @Test public void devrait_proposer_une_salle_quand_pas_de_reservations_preexistantes_qui_chevauche_1() {
         quandLaSeuleReservationPreexistanteEst(DE_10_A_12);
-            assertTrue(reservationService.findSalleReservable(8, LocalDate.now(), 14, 17).isPresent());
+            assertTrue(reservationService.findSalleReservable(8, new TimeSlot(LocalDate.now(), 14, 17)).isPresent());
     }
     
     @Test public void devrait_proposer_une_salle_quand_pas_de_reservations_preexistantes_qui_chevauche_2() {
         quandLaSeuleReservationPreexistanteEst(DE_13_A_14);
-            assertTrue(reservationService.findSalleReservable(8, LocalDate.now(), 14, 17).isPresent());
+            assertTrue(reservationService.findSalleReservable(8, new TimeSlot(LocalDate.now(), 14, 17)).isPresent());
     }
     
     @Test public void devrait_proposer_une_salle_quand_pas_de_reservations_preexistantes_qui_chevauche_3() {
         quandLaSeuleReservationPreexistanteEst(DE_17_A_18);
-            assertTrue(reservationService.findSalleReservable(8, LocalDate.now(), 14, 17).isPresent());
+            assertTrue(reservationService.findSalleReservable(8, new TimeSlot(LocalDate.now(), 14, 17)).isPresent());
     }
     
     @Test public void ne_devrait_pas_proposer_une_salle_quand_une_reservations_preexistante_chevauche_1() {
         quandLaSeuleReservationPreexistanteEst(DE_14_A_17);
-            assertFalse(reservationService.findSalleReservable(8, LocalDate.now(), 14, 17).isPresent());
+            assertFalse(reservationService.findSalleReservable(8, new TimeSlot(LocalDate.now(), 14, 17)).isPresent());
     }
     
     @Test public void ne_devrait_pas_proposer_une_salle_quand_une_reservations_preexistante_chevauche_2() {
         quandLaSeuleReservationPreexistanteEst(DE_15_A_16);
-            assertFalse(reservationService.findSalleReservable(8, LocalDate.now(), 14, 17).isPresent());
+            assertFalse(reservationService.findSalleReservable(8, new TimeSlot(LocalDate.now(), 14, 17)).isPresent());
     }
     
     @Test public void ne_devrait_pas_proposer_une_salle_quand_une_reservations_preexistante_chevauche_3() {
         quandLaSeuleReservationPreexistanteEst(DE_13_A_15);
-            assertFalse(reservationService.findSalleReservable(8, LocalDate.now(), 14, 17).isPresent());
+            assertFalse(reservationService.findSalleReservable(8, new TimeSlot(LocalDate.now(), 14, 17)).isPresent());
     }
     
     @Test public void ne_devrait_pas_proposer_une_salle_quand_une_reservations_preexistante_chevauche_4() {
         quandLaSeuleReservationPreexistanteEst(DE_16_A_18);
-            assertFalse(reservationService.findSalleReservable(8, LocalDate.now(), 14, 17).isPresent());
+            assertFalse(reservationService.findSalleReservable(8, new TimeSlot(LocalDate.now(), 14, 17)).isPresent());
     }
 
     

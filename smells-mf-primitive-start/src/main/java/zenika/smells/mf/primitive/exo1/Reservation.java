@@ -4,24 +4,33 @@ import java.time.LocalDate;
 
 public class Reservation {
     
-    private final LocalDate jour;
-    private final int heureDebut, heureFin;
-
+    private final TimeSlot timeSlot;
+    
+    @Deprecated
     public Reservation(LocalDate jour, int heureDebut, int heureFin) {
-        this.jour = jour;
-        this.heureDebut = heureDebut;
-        this.heureFin = heureFin;
+        this(new TimeSlot(jour, heureDebut, heureFin));
     }
     
-    public LocalDate getJour() {
-        return this.jour;
+    
+    public Reservation(TimeSlot timeSlot) {
+		super();
+		this.timeSlot = timeSlot;
+	}
+
+	public LocalDate getJour() {
+        return timeSlot.getJour();
     }
 
     public int getHeureDebut() {
-        return this.heureDebut;
+        return timeSlot.getHeureDebut();
     }
 
     public int getHeureFin() {
-        return this.heureFin;
+        return timeSlot.getHeureFin();
     }
+
+	boolean chevauche(TimeSlot timeSlot) {
+	    return getHeureFin() > timeSlot.getHeureDebut()
+	        && getHeureDebut() < timeSlot.getHeureFin();
+	}
 }
