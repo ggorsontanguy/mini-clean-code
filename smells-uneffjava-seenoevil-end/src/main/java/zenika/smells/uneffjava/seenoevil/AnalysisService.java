@@ -16,6 +16,7 @@ public class AnalysisService {
     public void updateMetricsWith(Path pathOfNewData) {
         try {
             importNewDataIntoIntoStore(pathOfNewData);
+            // si je veux rien faire si elle lance une exception ???
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         }

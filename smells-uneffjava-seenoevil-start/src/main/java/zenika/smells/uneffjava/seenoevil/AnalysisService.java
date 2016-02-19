@@ -12,14 +12,9 @@ public class AnalysisService {
 
     static final Logger log = LoggerFactory.getLogger(AnalysisService.class);
 
-    public void updateMetricsWith(Path pathOfNewData) {
-        try {
+    public void updateMetricsWith(Path pathOfNewData) throws IOException {
             importNewDataIntoIntoStore(pathOfNewData);
-        } catch (IOException e) {
-            log.error("import failed: ", e);
-        }
-        
-        refreshMetrics();
+            refreshMetrics();
     }
 
     private void importNewDataIntoIntoStore(Path pathOfNewData) throws IOException {
