@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/smells-autres-editorialiste-end" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-autres-editorialiste-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-autres-escalier-end" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-autres-escalier-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-autres-getset-end" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-autres-getset-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-mf-longmethod-end" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-mf-longmethod-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-mf-primitive-end" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-mf-primitive-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-uneffjava-obsol-end" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-uneffjava-obsol-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-uneffjava-seenoevil-end" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smells-uneffjava-seenoevil-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/supple-guards-end" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/supple-guards-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/supple-iri-end" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/supple-iri-start" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: zenika.smells.autres.escalier.exo2.MusicSearchServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.674 sec

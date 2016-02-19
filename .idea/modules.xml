@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mini-clean-code.iml" filepath="$PROJECT_DIR$/mini-clean-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-autres-editorialiste-end/smells-autres-editorialiste-end.iml" filepath="$PROJECT_DIR$/smells-autres-editorialiste-end/smells-autres-editorialiste-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-autres-editorialiste-start/smells-autres-editorialiste-start.iml" filepath="$PROJECT_DIR$/smells-autres-editorialiste-start/smells-autres-editorialiste-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-autres-escalier-end/smells-autres-escalier-end.iml" filepath="$PROJECT_DIR$/smells-autres-escalier-end/smells-autres-escalier-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-autres-escalier-start/smells-autres-escalier-start.iml" filepath="$PROJECT_DIR$/smells-autres-escalier-start/smells-autres-escalier-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-autres-getset-end/smells-autres-getset-end.iml" filepath="$PROJECT_DIR$/smells-autres-getset-end/smells-autres-getset-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-autres-getset-start/smells-autres-getset-start.iml" filepath="$PROJECT_DIR$/smells-autres-getset-start/smells-autres-getset-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-mf-primitive-end/smells-mf-primitive-end.iml" filepath="$PROJECT_DIR$/smells-mf-primitive-end/smells-mf-primitive-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-mf-primitive-start/smells-mf-primitive-start.iml" filepath="$PROJECT_DIR$/smells-mf-primitive-start/smells-mf-primitive-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-uneffjava-obsol-end/smells-uneffjava-obsol-end.iml" filepath="$PROJECT_DIR$/smells-uneffjava-obsol-end/smells-uneffjava-obsol-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-uneffjava-obsol-start/smells-uneffjava-obsol-start.iml" filepath="$PROJECT_DIR$/smells-uneffjava-obsol-start/smells-uneffjava-obsol-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-uneffjava-seenoevil-end/smells-uneffjava-seenoevil-end.iml" filepath="$PROJECT_DIR$/smells-uneffjava-seenoevil-end/smells-uneffjava-seenoevil-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smells-uneffjava-seenoevil-start/smells-uneffjava-seenoevil-start.iml" filepath="$PROJECT_DIR$/smells-uneffjava-seenoevil-start/smells-uneffjava-seenoevil-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supple-guards-end/supple-guards-end.iml" filepath="$PROJECT_DIR$/supple-guards-end/supple-guards-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supple-guards-start/supple-guards-start.iml" filepath="$PROJECT_DIR$/supple-guards-start/supple-guards-start.iml" />
+    </modules>
+  </component>
+</project>
